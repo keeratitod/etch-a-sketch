@@ -14,9 +14,13 @@
 }
 
 .grid-item {
-  border: 1px solid lightgray;
+  border: 0.01px solid lightgray;
 }
 
 .hover {
   background-color: black;
+}
+
+.clear {
+  font-size: 50px;
 }
