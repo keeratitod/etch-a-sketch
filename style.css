@@ -1,0 +1,22 @@
+:root {
+  --grid-rows: 1;  
+  --grid-cols: 1;
+  display: flex;
+  justify-content: center;
+}
+  
+#container {
+  display: grid;
+  grid-template-rows: repeat(var(--grid-rows), 1fr);
+  grid-template-columns: repeat(var(--grid-cols), 1fr);
+  width: 960px;
+  height: 960px;
+}
+
+.grid-item {
+  border: 1px solid lightgray;
+}
+
+.hover {
+  background-color: black;
+}
